@@ -1,0 +1,13 @@
+.roboto{
+    font-family: 'Roboto';
+}
+
+.icons{
+    list-style: none;
+}
+
+.icons li::before{
+    content: '\f0a9';
+    font-family: 'fontAwesome';
+    margin-right: 10px;
+}

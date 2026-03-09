@@ -1,0 +1,21 @@
+.background{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-1{
+    background: url('../images/image-1.jpg'), linear-gradient(purple,pink);
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+}
+
+.image-2{
+    background: url('../images/image-2.jpg');
+    background-attachment: fixed;
+}
+
+.image-3{
+    background: url('../images/image-3.jpg');
+}
