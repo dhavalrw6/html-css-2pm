@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body bgcolor="tan">
+
+    <h1>Form</h1>
+    <hr />
+
+    <form action="" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" value="Dhaval" readonly />
+        <br /> <br />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"  required/>
+        <br /> <br />
+
+        <label for="password">password</label>
+        <input type="password" name="password" minlength="6" id="password" required>
+        <br /> <br />
+
+        <label for="number">number</label>
+        <input type="number" name="number" min="10" max="50" id="number">
+        <br /> <br />
+
+        <label for="range">range</label>
+        <input type="range" name="range" max="10" step="5" id="range">
+        <br /> <br />
+
+        <label for="color">color</label>
+        <input type="color" name="color" id="color">
+        <br /> <br />
+
+        <label for="date">date</label>
+        <input type="date" name="date" id="date">
+        <br /> <br />
+
+        <label for="time">time</label>
+        <input type="time" name="time" id="time">
+        <br /> <br />
+
+        <label for="url">url</label>
+        <input type="url" name="url" id="url">
+        <br /> <br />
+
+        <label for="search">search</label>
+        <input type="search" name="search" id="search" disabled>
+        <br /> <br />
+
+        <label for="tel">tel</label>
+        <input type="tel" name="tel" pattern="[A-Z]{2}-[4-7]{4}-[6-9]{4}" id="tel">
+        <br /> <br />
+
+        <label for="gender">gender</label>
+        <input type="radio" name="gender" value="male" checked /> Male
+        <input type="radio" name="gender" value="female" /> Female
+        <br /><br />
+
+        <label for="hobby">hobby</label>
+        <input type="checkbox" name="hobby" value="reading" /> Reading
+        <input type="checkbox" name="hobby" value="writing" checked /> Writing
+        <input type="checkbox" name="hobby" value="coding" /> Coding
+        <br /><br />
+
+        <label for="city">city</label>
+        <select name="city" id="city">
+            <option value="" disabled selected>--select-city--</option>
+            <option value="surat">surat</option>
+            <option value="navsari">navsari</option>
+            <option value="rajkot">rajkot</option>
+        </select>
+        <br /><br />
+        <label for="address">Address</label>
+        <textarea name="address" id="address" rows="4" cols="25">Hi Red & White</textarea>
+        <br /><br />
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.hero{
+    background: rgb(213, 213, 213);
+    height: 250px;
+    padding: 0 2rem;
+}
+
+.hero h2{
+    padding-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p{
+    margin-bottom: 0.5rem;
+}
+
+.hero input{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    width: 30%;
+}
+
+.hero img{
+    width: 400px;
+    float: right;
+}
+
+.box{
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+.inner-box{
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* 1rem == 16px */
