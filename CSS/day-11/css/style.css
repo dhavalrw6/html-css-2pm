@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection{
+    background: aqua;
+    color: purple;
+}
+
+.main>p{
+    color: red;
+}
+
+div~p{
+    color:green;
+}
+
+#text::first-letter{
+    font-size: 36px;
+    color: red;
+}
+
+.my-text::first-line{
+    background: pink;
+    color: red;
+}

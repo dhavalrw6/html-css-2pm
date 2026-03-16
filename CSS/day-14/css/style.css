@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1340px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+header{
+    padding: 20px 0;
+    background: lightcyan;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header .logo{
+    font-size: 28px;
+}
+
+header .logo span{
+    color: gray;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a{
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+header nav a:nth-child(3){
+    color: red;
+}
