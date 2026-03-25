@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+  --theme-coffee:#846358;
+  --theme-white:#fff;
+  --theme-font: "DM Sans", sans-serif;
+  --theme-text: #4B5563;
+  --theme-gray-700:#374151;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.col-1 {
+  width: 8.33%;
+  padding: 0 15px;
+}
+.col-2 {
+  width: 16.66%;
+  padding: 0 15px;
+}
+.col-3 {
+  width: 25%;
+  padding: 0 15px;
+}
+.col-4 {
+  width: 33.32%;
+  padding: 0 15px;
+}
+.col-5 {
+  width: 41.65%;
+  padding: 0 15px;
+}
+.col-6 {
+  width: 50%;
+  padding: 0 15px;
+}
+.col-7 {
+  width: 58.31%;
+  padding: 0 15px;
+}
+.col-8 {
+  width: 66.64%;
+  padding: 0 15px;
+}
+.col-9 {
+  width: 75%;
+  padding: 0 15px;
+}
+.col-10 {
+  width: 83.3%;
+  padding: 0 15px;
+}
+.col-11 {
+  width: 91.63%;
+  padding: 0 15px;
+}
+.col-12 {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.d-flex{
+  display: flex;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.flex-column{
+  flex-direction: column;
+}
+.align-items-center{
+  align-items: center;
+}
+/* header start  */
+
+header {
+  margin: 20px 0;
+  font-family: var(--theme-font);
+}
+
+header .logo .logo-icon{
+  background: var(--theme-coffee);
+  padding: 0.8rem;
+  border-radius: 50%;
+  color: var(--theme-white);
+  margin-right: 0.5rem;
+}
+
+header .logo-content span:first-child{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header .logo-content span:last-child{
+  font-size: 12px;
+  color: var(--theme-text);
+}
+
+header nav li{
+  margin: 0 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--theme-gray-700);
+}
+
+header nav li a{
+  transition: all 0.3s ease;
+}
+
+header nav li:hover a{
+  color: var(--theme-coffee);
+}
+
+header .theme i{
+  color: var(--theme-coffee);
+  margin-right: 1rem;
+  padding: 10px 18px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+header .theme:hover i{
+  background: #4b55630f;
+}
+
+header .order-online{
+  background: var(--theme-coffee);
+  color: var(--theme-white);
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+header .order-online:hover{
+  background: #6f574d;
+}
+
+/* header end  */

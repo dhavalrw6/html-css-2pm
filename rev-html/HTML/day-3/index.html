@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="" method="post">
+        <h2>Registration Form</h2>
+        <label for="fullname">Full Name: </label>
+        <input type="text" name="fullname" id="fullname" required placeholder="Enter your name" />
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" name="age"  id="age" />
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"/>
+        <br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender1" value="male" />Male
+        <input type="radio" name="gender" id="gender2" value="female">Female
+        <br><br>   
+
+        <label for="hobby">Hobby</label>
+        <input type="checkbox" name="hobby" id="hobby1" value="reading" />reading
+        <input type="checkbox" name="hobby" id="hobby2" value="dancing" />dancing
+        <input type="checkbox" name="hobby" id="hobby3" value="coding" />coding
+        <br><br>
+
+        <label for="address">Address</label>
+        <textarea name="address" id="address" placeholder="Enter your address" rows="6" cols="25"></textarea>
+        <br><br>
+
+        <label for="city">City</label>
+        <select name="city" id="city">
+            <option value="" disabled selected>--select-city--</option>
+            <option value="navsari" >Navsari</option>
+            <option value="Surat">Surat</option>
+            <option value="Rajkot" >Rajkot</option>
+        </select>
+        <br><br>
+        <label for="file">File</label>
+        <input type="file" name="image" multiple />
+        <br><br>
+
+        <label for="color">color</label>
+        <input type="color" name="color" />
+        <br><br>
+
+        <label for="date">date</label>
+        <input type="date" name="date" />
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

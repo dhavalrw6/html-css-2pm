@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 400px;
+    background: tan;
+    display: flex;
+}
+
+.box{
+    width: 70px;
+    height: 70px;
+    background: gray;
+    border: 2px solid black;
+    font-size: 21px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.flex-direction-row{
+    flex-direction: row;
+}
+
+.flex-row-revers{
+    flex-direction: row-reverse;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.flex-column-revers{
+     flex-direction: column-reverse;
+}

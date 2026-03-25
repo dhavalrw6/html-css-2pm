@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+    width: 400px;
+    height: 250px;
+    margin: 100px;
+    perspective: 1000px;
+    float: left;
+}
+
+.inner-card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+}
+
+.front-card,.back-card{
+    width: 100%;
+    height: 100%;
+    line-height: 250px;
+    text-align: center;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front-card{
+    background: gray;
+}
+
+.back-card{
+    background: rgb(156, 107, 17);
+    transform: rotateY(180deg);
+}
+
+.card:hover .inner-card{
+    transform: rotateY(180deg);
+}
+
+/* flip card end  */
+
+.img-card{
+    width: 400px;
+    height: 250px;
+    margin: 70px;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+}
+
+.img-card img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s linear;
+}
+
+.img-card:hover img{
+    transform: scale(1.1);
+    rotate: 3deg;
+}
