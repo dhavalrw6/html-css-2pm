@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 400px;
+    background: tan;
+    display: flex;
+}
+
+.box{
+   width: 70px;
+   height: 70px;
+   background: teal;
+   border: 2px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 32px;
+   color: wheat;
+   align-self: baseline;
+}
+
+.flex-shrink{
+    flex-shrink: 3;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+.order-4{
+    order: 4;
+}
+.order-5{
+    order: 5;
+}
+
+.align-self-start{
+    align-self: flex-start;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.align-self-center{
+    align-self: center;
+}
+
+.h-100{
+    height: 100px;
+}
+.h-150{
+    height: 150px;
+}
+.h-200{
+    height: 200px;
+}

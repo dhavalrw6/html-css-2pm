@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
 
 :root{
   --theme-coffee:#846358;
@@ -6,6 +8,7 @@
   --theme-font: "DM Sans", sans-serif;
   --theme-text: #4B5563;
   --theme-gray-700:#374151;
+  --theme-Playfair:"Playfair", serif;
 }
 
 * {
@@ -157,7 +160,8 @@ header .theme:hover i{
   background: #4b55630f;
 }
 
-header .order-online{
+header .order-online,
+.hero-btn .btn{
   background: var(--theme-coffee);
   color: var(--theme-white);
   font-size: 14px;
@@ -171,3 +175,62 @@ header .order-online:hover{
 }
 
 /* header end  */
+
+/* hero start  */
+.hero{
+  background: #fdf8f6;
+  padding: 100px 0;
+}
+
+.hero .hero-content{
+  padding: 100px 0;
+}
+
+.hero .hero-content .hero-subtitle{
+  font-size: 21px;
+  font-family: var(--theme-Playfair);
+  color: var(--theme-coffee);
+}
+.hero .hero-content .hero-title{
+  font-size: 72px;
+  font-family: var(--theme-Playfair);
+  margin: 1rem 0;
+}
+
+.hero .hero-title span{
+  color: var(--theme-coffee);
+  display: block;
+}
+.hero .hero-content .hero-text{
+  font-size: 18px;
+  font-family: var(--theme-font);
+  color: var(--theme-text);
+  margin-bottom: 2rem;
+}
+.hero .hero-btn{
+  font-family: var(--theme-font);
+}
+.hero .hero-btn .btn{
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.hero .hero-btn .order-online{
+  background: transparent;
+  color: var(--theme-coffee);
+  border: 2px solid var(--theme-coffee);
+}
+
+.hero .hero-btn .order-online:hover{
+  background: var(--theme-coffee);
+  color: var(--theme-white);
+}
+
+.hero .hero-image{
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* hero end  */
