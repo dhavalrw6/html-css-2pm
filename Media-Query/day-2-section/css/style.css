@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+ul li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.col-2{
+    width: 16.66%;
+    padding: 0 15px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-4{
+    width: 33.33%;
+    padding: 0 15px;
+}
+.col-12{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.skills h2{
+    margin-bottom: 1rem;
+}
+
+.skills .box{
+    border: 2px solid gray;
+    padding: 1rem;
+    text-align: center;
+}
+
+.skills .card{
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.skills .card h4{
+   margin-top: 1rem;
+}
+
+.skills .card p{
+    color: gray;
+    margin-top: .5rem;
+}
+
+.skills .card .star{
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+    margin-bottom:.5rem;
+}
+
+.skills .card .star strong{
+    font-size: 18px;
+    color: darkgoldenrod;
+}
+
+.skills .card .star .star-icon{
+    color: gold;
+    margin: 0 .5rem;
+}
+
+.skills .card .star span,.skills .card del{
+    color: gray;
+}

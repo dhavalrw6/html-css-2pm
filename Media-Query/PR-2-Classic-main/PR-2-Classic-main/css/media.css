@@ -1,0 +1,57 @@
+/* sm  */
+@media(min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+/* md  */
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+    header{
+        padding: 20px 0;
+    }
+
+    header .navbar .nav{
+        flex-direction: row;
+        position: static;
+        padding: 0;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+}
+
+/* lg  */
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .blog .post{
+        flex-direction: row;
+    }
+}
+/* xl  */
+@media(min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+    .col-xl-6{
+        width: 50%;
+    }
+    .col-xl-3{
+        width: 25%;
+    }
+}
+
+/* xxl  */
+@media(min-width:1400px){
+    .container{
+        max-width: 1320px;
+    }
+}

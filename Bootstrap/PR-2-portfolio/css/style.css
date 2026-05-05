@@ -1,0 +1,62 @@
+/* header start  */
+header {
+    width: 300px;
+}
+
+header .profile-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    transition: all .3s linear;
+}
+
+header .profile-icons a:hover {
+    background: rgb(0, 176, 216) !important;
+}
+
+header .nav a i{
+    transition: all 0.3s linear;
+}
+
+header .nav a:hover i{
+    color: rgb(0, 176, 216) !important;
+}
+
+header .nav a:hover{
+    color: white !important;
+}
+
+/* main section start  */
+
+main{
+    width: calc(100% - 300px);
+}
+
+/* hero section start  */
+.hero {
+    background: url('../images/hero-bg.jpg'),#0000004f;
+    background-size: cover;
+    background-blend-mode: color;
+}
+
+/* about start  */
+.about .about-heading::after{
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: rgb(0, 176, 216) !important;
+    position: absolute;
+    left: 0;
+    bottom: -1.5rem;
+}
+
+.about ul li::before{
+    content: '\f285';
+    font-family: "bootstrap-icons" !important;
+    color: rgb(0, 176, 216) !important;
+    margin-right: .5rem;
+    align-self: baseline;
+}

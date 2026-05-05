@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --theme-title: #e7b042;
+    --theme-text: #898989;
+    --text-white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-4{
+    width: 33.33%;
+    padding: 0 15px;
+}
+.col-8{
+    width: 66.64%;
+    padding: 0 15px;
+}
+.col-12{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.py-5{
+    padding: 3rem;
+}
+
+/* header section start  */
+header{
+    
+}
+header .logo{
+    font-size: 42px;
+    color: var(--theme-title);
+}
+header li a {
+    padding: 0.5rem 2rem;
+    font-size: 18px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: initial;
+    background: transparent;
+    transition: all 0.3s ease;
+
+}
+
+header li:first-child a{
+    background: var(--theme-title);
+    color: var(--text-white);
+}
+
+header li:hover a{
+    background: var(--theme-title);
+    color: var(--text-white);
+}
+
+header .navbar {
+    /* padding: 15px 0; */
+}
+
+header .navbar .nav {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+/* header section end  */
+
+/* hero section start  */
+.hero{
+    background-image: url('../images/hero.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* hero section end  */
+
+/* introduction section start  */
+.introduction h2{
+    font-size: 32px;
+    color: var(--theme-title);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.introduction p{
+    color: var(--theme-text);
+    font-size: 21px;
+    line-height: 1.5;
+}
+/* introduction section end  */
+
+/* intro section start  */
+.intro .card-body h4{
+    color: var(--theme-title);
+    margin: 1.5rem 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+.intro .card-body p{
+    color: var(--theme-text);
+    font-size: 18px;
+}
+
+.intro .card-body .card-btn,
+.blog .btn{
+    padding: 0.5rem 2rem;
+    background: var(--theme-title);
+    color: var(--text-white);
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+/* intro section end  */
+
+/* blog section start  */
+.blog h3,
+footer h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--theme-title);
+    margin-bottom: 1.5rem;
+}
+
+.blog p,
+footer p{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--theme-text);
+    margin-bottom: 1.5rem;
+    line-height: 2;
+}
+
+.blog ul{
+    margin-bottom: 2rem;
+}
+
+.blog li a{
+    color: #006699;
+    line-height: 2.8;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 300;
+}
+.blog .post {
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+.blog .post img{
+    /* width: 240px; */
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 1rem;
+}
+
+.blog .post h3{
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.blog .post p{
+    font-size: 16px;
+    border-bottom: 2px solid var(--text-white);
+}
+
+/* blog section end  */
+
+/* footer section start  */
+footer{
+    background: url('../images/classic-pattern-bg.png');
+}
+
+footer p{
+    font-size: 16px;
+}
+footer .footer-content{
+    padding: 2rem 1rem;
+    background: #ccc;
+}
+
+footer .footer-content p{
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+footer li{
+    color: #cccc66;
+    margin-bottom: 1rem;
+}
+
+footer li a{
+    text-decoration: underline;
+}
+
+footer .image-item{
+    width: 33.33%;
+    margin: 2px;
+}
+/* footer section end  */

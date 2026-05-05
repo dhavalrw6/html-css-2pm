@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-12{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.box{
+    padding: 40px 0;
+    background: tan;
+}
+
+.mt-3{
+    margin-top: 3rem;
+}

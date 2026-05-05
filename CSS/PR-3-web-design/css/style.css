@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --theme-gray-200: #f7f9fb;
+  --theme-gray-600:#777777;
+  --theme-blue-800: #2250fc;
+  --theme-gray-900:#484848;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+ul li {
+  list-style: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.py-3 {
+  padding: 3rem;
+}
+
+.py-5{
+    padding: 5rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4{
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.col-3{
+  width: 25%;
+  padding: 0 15px;
+}
+
+/* header start */
+
+header {
+  padding: 14px 0;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navbar .logo {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header ul li {
+  margin-left: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+header ul li a {
+  padding: 10px 12px;
+}
+
+/* hero start */
+
+.hero {
+  background: url("../images/2.jpg");
+  background-size: cover;
+  background-position: 50% 20%;
+  height: 80vh;
+  position: relative;
+}
+.hero .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+.hero .hero-content {
+  text-align: right;
+}
+.hero .hero-content h1 {
+  font-size: 80px;
+}
+.hero .hero-content h3 {
+  font-size: 26px;
+}
+
+/* purchase start  */
+
+.purchase {
+  background: var(--theme-gray-200);
+}
+
+.purchase .purchase-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.purchase .purchase-heading h2{
+    font-weight: 100;
+}
+
+.purchase .purchase-heading .btn {
+    padding: 12px 18px;
+    background: var(--theme-blue-800);
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    border: 1 solid var(--theme-blue-800);
+    border-radius: 2rem;
+    transition: all .3s linear;
+}
+
+.purchase .purchase-heading .btn:hover{
+    background-color: #0333e8;
+    border-color: #0333e8;
+}
+
+/* services start */
+.services .card h3{
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.services .card p{
+    font-size: 14px;
+    color: var(--theme-gray-600);
+}
+
+/* counter start  */
+
+.counter{
+  background: var(--theme-gray-200);
+}
+
+.counter .counter-item{
+  text-align: center;
+}
+
+.counter .counter-item h4{
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--theme-gray-900);
+  margin-bottom: 1.5rem;
+}
+
+.counter .counter-item p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--theme-gray-600);
+}
+
+/* portfolio start  */
+
+.portfolio h4{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.portfolio .skills-item{
+  margin-bottom: 1.5rem;
+}
+
+.portfolio .skills-item strong{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.portfolio .skills-item span{
+  font-size: 12px;
+  color: var(--theme-gray-600);
+  font-weight: 400;
+}
+
+.portfolio .skills-item .progress{
+  height: 10px;
+  background-color: #eee;
+}
+
+.portfolio .skills-item .progress-bar{
+  height: 100%;
+  background: var(--theme-blue-800);
+}
+
+.portfolio .portfolio-content{
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--theme-gray-600);
+}
+
+.portfolio .portfolio-services-item{
+  padding: .8rem 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .5rem 0;
+}
+
+.portfolio .blog-item{
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+.portfolio .blog-item img{
+  width: 80px;
+  height: 60px;
+  margin-right: 1rem;
+}
+
+.portfolio .blog-item a{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.portfolio .blog-item span{
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--theme-gray-600);
+}
