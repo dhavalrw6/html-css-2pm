@@ -61,4 +61,24 @@ main{
     align-self: baseline;
 }
 
-/* counter start  */
+/* portfolio  */
+.portfolio ul li .active{
+    color: rgb(0, 176, 216) !important;
+}
+
+.portfolio .portfolio-item .overlay{
+    opacity: 0;
+    transition: all .3s linear;
+}
+
+.portfolio .portfolio-item img{
+    transition: all .3s linear;
+}
+
+.portfolio .portfolio-item:hover .overlay{
+    opacity: 1;
+}
+
+.portfolio .portfolio-item:hover img{
+    transform: scale(1.05);
+}
